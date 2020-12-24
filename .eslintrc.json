@@ -32,13 +32,14 @@
       }
     ],
     "@typescript-eslint/camelcase": "off",
+    "no-useless-constructor": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
       {
         "ts": "never"
       }
-    ]
+    ],
   },
   "settings": {
     "import/resolver": {
